@@ -1,0 +1,34 @@
+{
+  "dataset": "herg60",
+  "source_file": "/home/cheikh/Downloads/HERA_HGT_DETERMINISTIC_V2_FINAL/data/external/ctoxpred/raw/eval_set_herg_60.csv",
+  "published_rows": 250,
+  "valid_smiles": 250,
+  "invalid_smiles": 0,
+  "internal_duplicate_rows": 0,
+  "published_class_distribution": {
+    "blocker_1": 125,
+    "non_blocker_0": 125
+  },
+  "label_rule": "Class=1 if pIC50 >= 5.0 (IC50 <= 10 uM), else Class=0",
+  "overlap_by_split": {
+    "train": {
+      "canonical_smiles_overlap": 136,
+      "connectivity_overlap": 141
+    },
+    "val": {
+      "canonical_smiles_overlap": 45,
+      "connectivity_overlap": 52
+    },
+    "test": {
+      "canonical_smiles_overlap": 46,
+      "connectivity_overlap": 56
+    }
+  },
+  "any_hergat_exact_overlap": 209,
+  "any_hergat_connectivity_overlap": 212,
+  "strict_external_rows": 41,
+  "strict_class_distribution": {
+    "blocker_1": 22,
+    "non_blocker_0": 19
+  }
+}

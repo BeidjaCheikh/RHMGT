@@ -1,0 +1,17 @@
+{
+  "dataset": "karim",
+  "source_file": "/home/cheikh/Downloads/hERGAT/recovered_external/dataset_External_Ex3.csv",
+  "original_rows": 408,
+  "invalid_smiles": 0,
+  "unique_canonical_before_conflict_removal": 408,
+  "duplicate_canonical_groups": 0,
+  "conflicting_canonical_groups_removed": 0,
+  "rows_in_conflicting_groups_removed": 0,
+  "rows_after_internal_dedup_and_conflict_removal": 408,
+  "train_exact_overlap_removed": 217,
+  "final_n": 191,
+  "final_blockers_Class1": 104,
+  "final_nonblockers_Class0": 87,
+  "label_mapping": "historical Class 0 -> blocker -> new Class 1; historical Class 1 -> non-blocker -> new Class 0",
+  "filter_rule": "Canonicalize SMILES; remove ambiguous canonical structures with conflicting labels; collapse same-label canonical duplicates; remove exact canonical overlap with hERGAT TRAIN only. Validation and test overlaps retained."
+}

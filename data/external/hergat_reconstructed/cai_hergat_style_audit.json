@@ -1,0 +1,17 @@
+{
+  "dataset": "cai",
+  "source_file": "/home/cheikh/Downloads/hERGAT/recovered_external/dataset_External_Ex1.csv",
+  "original_rows": 3511,
+  "invalid_smiles": 0,
+  "unique_canonical_before_conflict_removal": 3414,
+  "duplicate_canonical_groups": 90,
+  "conflicting_canonical_groups_removed": 10,
+  "rows_in_conflicting_groups_removed": 24,
+  "rows_after_internal_dedup_and_conflict_removal": 3404,
+  "train_exact_overlap_removed": 2605,
+  "final_n": 799,
+  "final_blockers_Class1": 452,
+  "final_nonblockers_Class0": 347,
+  "label_mapping": "historical Class 0 -> blocker -> new Class 1; historical Class 1 -> non-blocker -> new Class 0",
+  "filter_rule": "Canonicalize SMILES; remove ambiguous canonical structures with conflicting labels; collapse same-label canonical duplicates; remove exact canonical overlap with hERGAT TRAIN only. Validation and test overlaps retained."
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "herg60",
+  "original_n": 250,
+  "train_exact_overlap": 136,
+  "val_exact_overlap": 45,
+  "train_val_union_exact_overlap": 170,
+  "train_val_connectivity_overlap": 173,
+  "development_clean_n": 80,
+  "development_clean_blockers": 39,
+  "development_clean_nonblockers": 41,
+  "filter_rule": "Remove exact canonical-SMILES overlap with hERGAT TRAIN or VALIDATION only. hERGAT TEST overlap is not removed."
+}

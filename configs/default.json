@@ -1,0 +1,31 @@
+{
+  "model": {
+    "hidden_dim": 256,
+    "n_heads": 8,
+    "n_layers": 4,
+    "dropout": 0.2,
+    "ffn_multiplier": 4,
+    "max_pair_dist": 12,
+    "fusion_type": "fhgnn_adaptive",
+    "ablation_name": "full",
+    "prediction_mode": "multimodal",
+    "use_relation_bias": true,
+    "use_distance_bias": true,
+    "use_bond_bias": true,
+    "use_morgan": true,
+    "use_maccs": true,
+    "use_atompair": true,
+    "use_descriptors": true
+  },
+  "featurizer": {
+    "max_atom_dist": 10,
+    "max_motif_dist": 12,
+    "max_motifs": 48,
+    "include_brics": true,
+    "include_pharmacophores": true,
+    "morgan_dim": 1024,
+    "maccs_dim": 167,
+    "atom_pair_fp_dim": 2048,
+    "morgan_radius": 3
+  }
+}

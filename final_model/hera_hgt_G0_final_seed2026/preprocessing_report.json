@@ -1,0 +1,19 @@
+{
+  "train": {
+    "path": "data/paper_split/hERGAT_train_df.csv",
+    "n_raw": 20542,
+    "n_valid": 20542,
+    "n_invalid_smiles": 0,
+    "n_invalid_labels": 0,
+    "invalid_row_ids": []
+  },
+  "val": {
+    "path": "data/paper_split/hERGAT_valid_df.csv",
+    "n_raw": 1415,
+    "n_valid": 1415,
+    "n_invalid_smiles": 0,
+    "n_invalid_labels": 0,
+    "invalid_row_ids": []
+  },
+  "test_accessed": false
+}

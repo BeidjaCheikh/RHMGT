@@ -1,0 +1,30 @@
+RHMGT additional supplementary interpretability figures
+================================================================
+Input directory: outputs/interpretability/hera_hgt_q1_final
+Seed: 2026
+Bootstrap replicates: 2000
+
+Figure S4
+---------
+Source: global_atom_ig_sample.csv
+Aggregation:
+  1. atom-level signed IG;
+  2. average repeated atoms within each molecule x atom type;
+  3. molecule-level bootstrap 95% CI.
+Atom types require >= 10 distinct TP molecules
+and >= 10 distinct TN molecules.
+Displayed maximum atom types: 8.
+No hypothesis test is attached to the TP-TN contrast.
+
+Figure S5
+---------
+Source: global_family_occlusion.csv
+Aggregation: one molecule-level logit contribution per family.
+Boxplot whiskers: 5th-95th percentiles.
+The figure is descriptive and complements the mean family-effect figure
+in the main manuscript.
+
+Interpretation boundary
+-----------------------
+Both figures characterize predictive sensitivity of RHMGT.
+They do not establish causal ligand-channel interactions.
